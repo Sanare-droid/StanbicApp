@@ -1,0 +1,308 @@
+/* Add your custom styles here */
+/* You can add additional styling as needed */
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    animation: slideIn 1s ease-out, slideOut 1s 2s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 0;
+    }
+    to {
+        top: -50px;
+    }
+}
+
+/* Apply a dark background to the entire page */
+body {
+    background-color: #333;
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+    background-color: #222; /* Darker background for the container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style form labels */
+label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #444; /* Darker input background */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f44336; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the success message */
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Green success message background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    animation: slideIn 1s ease-out, slideOut 1s 2s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 0;
+    }
+    to {
+        top: -50px;
+    }
+}
+
+/* Apply a dark background to the entire page */
+body {
+    background-color: #333;
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Ensure the page covers the entire viewport height */
+}
+
+/* Style the container */
+.container {
+    background-color: #222; /* Darker background for the container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: 100%; /* Ensure the container doesn't overflow the viewport width */
+    max-width: 400px; /* Limit the maximum width of the container */
+}
+
+/* Style form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style form labels */
+label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #444; /* Darker input background */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f44336; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the success message */
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Green success message background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    animation: slideIn 1s ease-out, slideOut 1s 2s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 0;
+    }
+    to {
+        top: -50px;
+    }
+}
+/* Apply a dark background to the entire page */
+body {
+    background-color: #333;
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Ensure the page covers the entire viewport height */
+}
+
+/* Style the container */
+.container {
+    background-color: #222; /* Darker background for the container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: 100%; /* Ensure the container doesn't overflow the viewport width */
+    max-width: 400px; /* Limit the maximum width of the container */
+}
+
+/* Style form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style form labels */
+label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #444; /* Darker input background */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f44336; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the success message */
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Green success message background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    animation: slideIn 1s ease-out, slideOut 1s 2s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 0;
+    }
+    to {
+        top: -50px;
+    }
+}

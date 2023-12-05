@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Transfer Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Fund Transfer Form</h2>
+        <form id="fundTransferForm" action="http://localhost:3000/transfer" method="POST">
+            <label for="debitAccount">Debit Account:</label>
+            <input type="text" id="debitAccount" name="debitAccount" required>
+
+            <label for="creditAccount">Credit Account:</label>
+            <input type="text" id="creditAccount" name="creditAccount" required>
+
+            <label for="executionDate">Execution Date:</label>
+            <input type="date" id="executionDate" name="executionDate" required>
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="currency">Currency (e.g., KES):</label>
+            <input type="text" id="currency" name="currency" value="KES" required>
+
+            <label for="narrative">Transaction Narrative:</label>
+            <input type="text" id="narrative" name="narrative">
+
+            <label for="callbackUrl">Callback URL:</label>
+            <input type="text" id="callbackUrl" name="callbackUrl">
+
+            <button type="submit">Initiate Transfer</button>
+        </form>
+    </div>
+
+    <!-- Add a div for displaying the success message -->
+    <div class="success-message" id="successMessage">Transfer successful!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
